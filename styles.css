@@ -1,5 +1,5 @@
 body{
-    font-family: TimesNewRoman, sans-serif;
+    font-family: "Times New Roman", serif;
     margin: 0;
 }
 article{
@@ -24,14 +24,29 @@ label{
     margin-bottom: 10px;
     font-weight: bold;
 }
-h1{
+header{
+    background-color: #d8f8e2;
+    padding: 10px;
+    text-align: center;
+}
+header>h1{
     color: #114903;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
     
+}
+header>div{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    background-color: lch(83.29% 25.37 152.82);
 }
 h2{
     color: #79be40;
-    margin-left: 2px;
-    padding: 10px;
+    padding: 20px;
 }
 
 body > div {
@@ -49,8 +64,8 @@ body > div {
 a{
     color: #1296ca;
     text-decoration: none;
-    display: block;
-    gap: 10px;
+    transition: color 0.5s ease;
+    font-size: 20px;
 
 }
 a:hover{
@@ -83,4 +98,10 @@ h4{
     gap: 1px;
     text-align: center;
 }
-
+.redes-sociales{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: px;
+    text-align: center;
+    align-items: center;
+}
