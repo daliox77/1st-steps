@@ -116,3 +116,17 @@ h4{
     border-radius: 5px;
     cursor: pointer;
 }
+.button-interactivo{
+    &.is-active {
+        background-color: #66db06;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px 20px;
+        background-color: #66db06;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+}

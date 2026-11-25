@@ -1,12 +1,10 @@
-        const boton = document.querySelector('#super_boton')
-        console.log(boton)
-        
-        boton.addEventListener("click", function() {
-           boton.textContent = "¡Gracias por hacer clic!"
-           boton.style.backgroundColor = "green"
-           boton.style.cursor = "not-allowed"
-           boton.disabled = true
-        }); 
-    
-
-    
+        const botones = document.querySelectorAll('.button-interactivo')
+       
+        botones.forEach(botones=> {
+        botones.addEventListener("click", function() {
+           botones.textContent = "¡Gracias por hacer clic!"
+           botones.style.cursor = "not-allowed"
+           botones.disabled = true
+           botones.classList.add("is-active")
+        });
+        });
