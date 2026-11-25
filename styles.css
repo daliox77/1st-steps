@@ -105,3 +105,14 @@ h4{
     text-align: center;
     align-items: center;
 }
+#super_boton{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 20px;
+    background-color: #79be40;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
