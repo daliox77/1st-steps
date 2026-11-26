@@ -130,3 +130,11 @@ h4{
         cursor: pointer;
     }
 }
+
+.bloque_preguntas{
+    .bloque-preguntas {
+    display: flex;
+    flex-direction: column; 
+    gap: 27px;           
+}
+}
